@@ -1,34 +1,31 @@
  <h1>SDB Livraria</h1>
     <p>Este repositório contém o modelo físico e o script SQL para a criação do banco de dados de um sistema de livraria.</p>
-Visão Geral do Projeto
-Este projeto tem como objetivo modelar um banco de dados para gerenciar as operações de uma livraria, incluindo clientes (pessoas físicas e jurídicas), livros, editoras, estoque e pedidos.
+<p><strong>Visão Geral do Projeto</strong></p>
+<p>Este projeto tem como objetivo modelar um banco de dados para gerenciar as operações de uma livraria, incluindo clientes (pessoas físicas e jurídicas), livros, editoras, estoque e pedidos.</p>
 
-Estrutura do Banco de Dados
-O banco de dados sdb_livraria é composto pelas seguintes tabelas:
+<p><strong>Estrutura do Banco de Dados</strong></p>
+O banco de dados sdb_livraria é composto pelas seguintes tabelas
 
-Cliente: Armazena informações gerais sobre os clientes da livraria.
+<strong>Cliente:</strong> Armazena informações gerais sobre os clientes da livraria.
 
-Pessoa_fisica: Especialização de Cliente para clientes pessoa física, contendo RG e CPF.
+<strong>Pessoa_fisica:</strong> Especialização de Cliente para clientes pessoa física, contendo RG e CPF.
 
-Pessoa_juridica: Especialização de Cliente para clientes pessoa jurídica, contendo CNPJ e Inscrição Estadual (IE).
+<strong>Pessoa_juridica:</strong>  Especialização de Cliente para clientes pessoa jurídica, contendo CNPJ e Inscrição Estadual (IE).
 
-Editora: Contém detalhes sobre as editoras dos livros.
+<strong>Editora:</strong>  Contém detalhes sobre as editoras dos livros.
 
-Livro: Armazena informações sobre os livros disponíveis, incluindo título, autor, ano de publicação, categoria, ISBN e valor.
+<strong>Livro:</strong>  Armazena informações sobre os livros disponíveis, incluindo título, autor, ano de publicação, categoria, ISBN e valor.
 
-Estoque: Gerencia a quantidade de cada livro em estoque e sua localização.
+<strong>Estoque:</strong>  Gerencia a quantidade de cada livro em estoque e sua localização.
 
-Pedido: Registra os pedidos feitos pelos clientes.
+<strong>Pedido:</strong>  Registra os pedidos feitos pelos clientes.
 
-Pedido_Livro: Tabela associativa que detalha quais livros estão incluídos em cada pedido e suas respectivas quantidades.
+<strong>Pedido_Livro:</strong>  Tabela associativa que detalha quais livros estão incluídos em cada pedido e suas respectivas quantidades.
 
-Modelo Físico
-O diagrama abaixo ilustra o modelo físico do banco de dados, mostrando as entidades e seus relacionamentos:
-
-Como Usar o Script SQL
+<h3>Como Usar o Script SQL</h3>
 Para criar o banco de dados e suas tabelas, siga os passos abaixo:
 
-Acesse seu ambiente MySQL: Abra um cliente MySQL (por exemplo, MySQL Workbench, linha de comando MySQL, phpMyAdmin, etc.).
+<strong>Acesse seu ambiente MySQL:</strong>  Abra um cliente MySQL (por exemplo, MySQL Workbench, linha de comando MySQL, phpMyAdmin, etc.).
 
-Execute o script: Copie e cole todo o conteúdo do arquivo SQL (fornecido em seu prompt anterior) no seu cliente MySQL e execute-o.
+<strong>Execute o script:</strong>  Copie e cole todo o conteúdo do arquivo SQL (fornecido em seu prompt anterior) no seu cliente MySQL e execute-o.
   
